@@ -3,11 +3,11 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   theme: {
     container: {
       center: true,
@@ -51,12 +51,12 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        ruby: {
-          blue: "#1877f2", // Facebook blue instead of ruby red
-          green: "#42b72a", // Facebook green instead of gold
+        fb: {
+          blue: "#1877f2",
+          green: "#42b72a",
           gray: "#4d4e4e",
           lightGray: "#ededed",
-        }
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -78,7 +78,7 @@ const config: Config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        lato: ['Lato', 'sans-serif'],
+        lato: ["Lato", "sans-serif"],
       },
     },
   },

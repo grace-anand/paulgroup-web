@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import SocialMediaLinks from '../shared/SocialMediaLinks';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import SocialMediaLinks from "../shared/SocialMediaLinks";
 
 const Hero = () => {
   return (
@@ -21,11 +21,12 @@ const Hero = () => {
           <div className="order-2 lg:order-1">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight">
               Building <br />
-              The Future With <span className="text-primary italic">Ruby</span>
+              The Future With <span className="text-primary italic">Paul</span>
             </h1>
             <p className="text-lg mb-8 text-gray-700 max-w-md">
-              Affordable housing, luxury villas, integrated townships, and cutting-edge infrastructure
-              built with quality, safety, and precision to meet your aspirations.
+              Affordable housing, luxury villas, integrated townships, and
+              cutting-edge infrastructure built with quality, safety, and
+              precision to meet your aspirations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

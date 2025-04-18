@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const ContactCTA = () => {
   return (
@@ -10,7 +10,9 @@ const ContactCTA = () => {
             We're here to guide you-connect with us
           </h2>
           <p className="text-gray-700 mb-8">
-            Have questions or need guidance? Our team is always ready to assist you with personalized support and expert advice. Reach out to us anytime—it's our pleasure to help you
+            Have questions or need guidance? Our team is always ready to assist
+            you with personalized support and expert advice. Reach out to us
+            anytime—it's our pleasure to help you
           </p>
           <Link
             href="/contactUs"

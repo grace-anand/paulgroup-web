@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const ServicesHero = () => {
   return (
@@ -24,23 +24,35 @@ const ServicesHero = () => {
 
       <div className="container-custom mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-black mb-6">
-            Our Services
-          </h1>
+          <h1 className="text-5xl md:text-6xl font-black mb-6">Our Services</h1>
           <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-            At Ruby Builders, we provide comprehensive construction and real estate solutions tailored to meet your unique needs. Our expert team delivers excellence at every stage, from planning to execution.
+            At Paul Builders, we provide comprehensive construction and real
+            estate solutions tailored to meet your unique needs. Our expert team
+            delivers excellence at every stage, from planning to execution.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="#residential" className="px-6 py-2 bg-primary text-white rounded-full transition hover:bg-opacity-90">
+            <a
+              href="#residential"
+              className="px-6 py-2 bg-primary text-white rounded-full transition hover:bg-opacity-90"
+            >
               Residential
             </a>
-            <a href="#commercial" className="px-6 py-2 bg-gray-100 text-gray-700 rounded-full transition hover:bg-gray-200">
+            <a
+              href="#commercial"
+              className="px-6 py-2 bg-gray-100 text-gray-700 rounded-full transition hover:bg-gray-200"
+            >
               Commercial
             </a>
-            <a href="#plotDevelopment" className="px-6 py-2 bg-gray-100 text-gray-700 rounded-full transition hover:bg-gray-200">
+            <a
+              href="#plotDevelopment"
+              className="px-6 py-2 bg-gray-100 text-gray-700 rounded-full transition hover:bg-gray-200"
+            >
               Plot Development
             </a>
-            <a href="#consultancy" className="px-6 py-2 bg-gray-100 text-gray-700 rounded-full transition hover:bg-gray-200">
+            <a
+              href="#consultancy"
+              className="px-6 py-2 bg-gray-100 text-gray-700 rounded-full transition hover:bg-gray-200"
+            >
               Consultancy
             </a>
           </div>

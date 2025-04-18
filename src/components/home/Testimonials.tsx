@@ -1,34 +1,34 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect, useRef } from 'react';
-import Image from 'next/image';
+import React, { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 
 const TESTIMONIALS = [
   {
     id: 1,
-    image: 'https://ext.same-assets.com/614157772/3870095690.jpeg',
-    alt: "Client testimonial"
+    image: "https://ext.same-assets.com/614157772/3870095690.jpeg",
+    alt: "Client testimonial",
   },
   {
     id: 2,
-    image: 'https://ext.same-assets.com/614157772/4117882800.jpeg',
-    alt: "Client testimonial"
+    image: "https://ext.same-assets.com/614157772/4117882800.jpeg",
+    alt: "Client testimonial",
   },
   {
     id: 33,
-    image: 'https://ext.same-assets.com/614157772/373744013.jpeg',
-    alt: "Client testimonial"
+    image: "https://ext.same-assets.com/614157772/373744013.jpeg",
+    alt: "Client testimonial",
   },
   {
     id: 36,
-    image: 'https://ext.same-assets.com/614157772/154937503.jpeg',
-    alt: "Client testimonial"
+    image: "https://ext.same-assets.com/614157772/154937503.jpeg",
+    alt: "Client testimonial",
   },
   {
     id: 43,
-    image: 'https://ext.same-assets.com/614157772/3067857369.jpeg',
-    alt: "Client testimonial"
-  }
+    image: "https://ext.same-assets.com/614157772/3067857369.jpeg",
+    alt: "Client testimonial",
+  },
 ];
 
 const Testimonials = () => {
@@ -45,7 +45,7 @@ const Testimonials = () => {
     resetTimeout();
     timeoutRef.current = setTimeout(() => {
       setActiveIndex((prevIndex) =>
-        prevIndex === TESTIMONIALS.length - 1 ? 0 : prevIndex + 1
+        prevIndex === TESTIMONIALS.length - 1 ? 0 : prevIndex + 1,
       );
     }, 5000);
 
@@ -60,11 +60,14 @@ const Testimonials = () => {
         <div className="flex flex-col md:flex-row gap-10 items-center">
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              Hear From Our<br />
+              Hear From Our
+              <br />
               Happy <span className="italic text-secondary">Homeowners</span>
             </h2>
             <p className="text-gray-700 mb-6">
-              Our clients are at the heart of everything we do. Read their stories and experiences to see why we are the trusted choice for exceptional infrastructure and housing solutions.
+              Our clients are at the heart of everything we do. Read their
+              stories and experiences to see why we are the trusted choice for
+              exceptional infrastructure and housing solutions.
             </p>
           </div>
 
@@ -94,7 +97,7 @@ const Testimonials = () => {
                 <button
                   key={idx}
                   className={`w-3 h-3 rounded-full ${
-                    idx === activeIndex ? 'bg-primary' : 'bg-gray-300'
+                    idx === activeIndex ? "bg-primary" : "bg-gray-300"
                   }`}
                   onClick={() => setActiveIndex(idx)}
                   aria-label={`Go to slide ${idx + 1}`}
@@ -107,7 +110,7 @@ const Testimonials = () => {
               className="absolute top-1/2 left-2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow-md"
               onClick={() => {
                 setActiveIndex((prevIndex) =>
-                  prevIndex === 0 ? TESTIMONIALS.length - 1 : prevIndex - 1
+                  prevIndex === 0 ? TESTIMONIALS.length - 1 : prevIndex - 1,
                 );
               }}
               aria-label="Previous slide"
@@ -130,7 +133,7 @@ const Testimonials = () => {
               className="absolute top-1/2 right-2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow-md"
               onClick={() => {
                 setActiveIndex((prevIndex) =>
-                  prevIndex === TESTIMONIALS.length - 1 ? 0 : prevIndex + 1
+                  prevIndex === TESTIMONIALS.length - 1 ? 0 : prevIndex + 1,
                 );
               }}
               aria-label="Next slide"

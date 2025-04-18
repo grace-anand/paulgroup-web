@@ -1,10 +1,12 @@
-import React from 'react';
-import SocialMediaLinks from '../shared/SocialMediaLinks';
+import React from "react";
+import SocialMediaLinks from "../shared/SocialMediaLinks";
 
 const ContactInfo = () => {
   return (
     <div className="bg-white p-6 md:p-8 rounded-lg shadow-sm h-full">
-      <h2 className="text-2xl md:text-3xl font-bold mb-6">Contact Information</h2>
+      <h2 className="text-2xl md:text-3xl font-bold mb-6">
+        Contact Information
+      </h2>
 
       <div className="space-y-6">
         <div>
@@ -32,10 +34,13 @@ const ContactInfo = () => {
             Address
           </h3>
           <p className="text-gray-700 ml-7">
-            Ruby Builders and Promoters,<br />
-            No.247/B, Velachery Main Road,<br />
-            Selaiyur, Chennai,<br />
-            Tamil Nadu 600073, India
+            PS Bhavan 1,
+            <br />
+            Appattuvila, Venkulam,
+            <br />
+            Trivandrum, India,
+            <br />
+            695506
           </p>
         </div>
 
@@ -58,8 +63,7 @@ const ContactInfo = () => {
             Phone
           </h3>
           <div className="ml-7">
-            <p className="text-gray-700">+91 9042 666 555</p>
-            <p className="text-gray-700">+91 44 6009 6009</p>
+            <p className="text-gray-700">+91 8129469683</p>
           </div>
         </div>
 
@@ -82,8 +86,11 @@ const ContactInfo = () => {
             Email
           </h3>
           <p className="text-gray-700 ml-7">
-            <a href="mailto:enquiry@rubybuilderschennai.com" className="hover:text-primary">
-              enquiry@rubybuilderschennai.com
+            <a
+              href="mailto:freddypaulvkp@gmail.com"
+              className="hover:text-primary"
+            >
+              freddypaulvkp@gmail.com
             </a>
           </p>
         </div>

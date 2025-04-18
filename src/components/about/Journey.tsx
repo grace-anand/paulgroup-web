@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const Journey = () => {
   return (
@@ -7,10 +7,12 @@ const Journey = () => {
       <div className="container-custom mx-auto">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our Journey of <span className="text-secondary italic">Excellence</span>
+            Our Journey of{" "}
+            <span className="text-secondary italic">Excellence</span>
           </h2>
           <p className="text-lg text-gray-700">
-            Explore the milestones that showcase our growth, innovation, and commitment to excellence
+            Explore the milestones that showcase our growth, innovation, and
+            commitment to excellence
           </p>
         </div>
 
@@ -26,7 +28,8 @@ const Journey = () => {
               <div className="md:w-1/2 md:pr-12 md:text-right order-2 md:order-1">
                 <div className="bg-gray-50 p-5 rounded-lg shadow-sm">
                   <p className="text-gray-700">
-                    Founded with a vision to redefine infrastructure development and deliver quality projects
+                    Founded with a vision to redefine infrastructure development
+                    and deliver quality projects
                   </p>
                 </div>
               </div>
@@ -53,7 +56,8 @@ const Journey = () => {
               <div className="md:w-1/2 md:pl-12 order-2 md:order-3">
                 <div className="bg-gray-50 p-5 rounded-lg shadow-sm">
                   <p className="text-gray-700">
-                    Completed our first affordable housing project, setting a new standard in the industry
+                    Completed our first affordable housing project, setting a
+                    new standard in the industry
                   </p>
                 </div>
               </div>
@@ -64,7 +68,8 @@ const Journey = () => {
               <div className="md:w-1/2 md:pr-12 md:text-right order-2 md:order-1">
                 <div className="bg-gray-50 p-5 rounded-lg shadow-sm">
                   <p className="text-gray-700">
-                    Expanded into commercial infrastructure, launching state-of-the-art office spaces
+                    Expanded into commercial infrastructure, launching
+                    state-of-the-art office spaces
                   </p>
                 </div>
               </div>
@@ -91,7 +96,8 @@ const Journey = () => {
               <div className="md:w-1/2 md:pl-12 order-2 md:order-3">
                 <div className="bg-gray-50 p-5 rounded-lg shadow-sm">
                   <p className="text-gray-700">
-                    Successfully delivered our 50th project, earning recognition for on-time delivery and quality
+                    Successfully delivered our 50th project, earning recognition
+                    for on-time delivery and quality
                   </p>
                 </div>
               </div>

@@ -1,6 +1,6 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Locations = () => {
   return (
@@ -8,10 +8,12 @@ const Locations = () => {
       <div className="container-custom mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Find your Perfect Dream <span className="italic text-secondary">Home</span>
+            Find your Perfect Dream{" "}
+            <span className="italic text-secondary">Home</span>
           </h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
-            Explore our projects across prime locations. Select your preferred area and take the first step toward finding your ideal home
+            Explore our projects across prime locations. Select your preferred
+            area and take the first step toward finding your ideal home
           </p>
         </div>
 
@@ -46,7 +48,9 @@ const Locations = () => {
               className="w-full h-[250px] object-cover transition-transform duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
-              <h3 className="text-white text-2xl font-bold mb-6">TIRUNELVELI</h3>
+              <h3 className="text-white text-2xl font-bold mb-6">
+                TIRUNELVELI
+              </h3>
               <Link
                 href="/projects?district=Tirunelveli"
                 className="bg-white text-foreground px-6 py-2 rounded-full font-medium hover:bg-primary hover:text-white transition-colors"
@@ -66,7 +70,9 @@ const Locations = () => {
               className="w-full h-[250px] object-cover transition-transform duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
-              <h3 className="text-white text-2xl font-bold mb-6">CHENGALPATTU</h3>
+              <h3 className="text-white text-2xl font-bold mb-6">
+                CHENGALPATTU
+              </h3>
               <Link
                 href="/projects?district=Chengalpattu"
                 className="bg-white text-foreground px-6 py-2 rounded-full font-medium hover:bg-primary hover:text-white transition-colors"

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const FloatingContactButtons = () => {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col space-y-4">
       {/* WhatsApp Button */}
       <a
-        href="https://api.whatsapp.com/send?phone=+919042666555&text=Hi,%20I'm%20interested%20in%20Ruby%20Builders%20Project.%20Please%20get%20in%20touch%20with%20me."
+        href="https://api.whatsapp.com/send?phone=+918129469683&text=Hi,%20I'm%20interested%20in%Paul%20Builders%20Project.%20Please%20get%20in%20touch%20with%20me."
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors"
@@ -24,7 +24,7 @@ const FloatingContactButtons = () => {
 
       {/* Call Button */}
       <a
-        href="tel:+919042666555"
+        href="tel:+918129469683"
         className="bg-primary text-white p-3 rounded-full shadow-lg hover:bg-opacity-90 transition-colors"
         aria-label="Call us"
       >

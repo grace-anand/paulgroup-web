@@ -3,16 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Lato';
-  src: url('https://ext.same-assets.com/165153690/3248512684.ttf') format('truetype');
+  font-family: "Lato";
+  src: url("https://ext.same-assets.com/165153690/3248512684.ttf")
+    format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lato';
-  src: url('https://ext.same-assets.com/165153690/1425427890.ttf') format('truetype');
+  font-family: "Lato";
+  src: url("https://ext.same-assets.com/165153690/1425427890.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -30,7 +32,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: var(--foreground);
   background-color: var(--background);
 }

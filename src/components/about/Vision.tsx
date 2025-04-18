@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const Vision = () => {
   return (
@@ -22,30 +22,55 @@ const Vision = () => {
           <div>
             <div className="mb-10">
               <h2 className="text-3xl font-bold mb-2">
-                Our Vision <span className="font-normal text-gray-600">— What we aspire for!</span>
+                Our Vision{" "}
+                <span className="font-normal text-gray-600">
+                  — What we aspire for!
+                </span>
               </h2>
               <p className="text-gray-700 mt-4">
-                To become a state-of-the-art infrastructure developer building affordable housing, integrated community townships, commercial buildings, highway infrastructure, and warehousing by finding synergies to execute trendsetting infrastructure projects in these diverse sectors. We shall not be the same as yesterday. Every day we innovate & grow, organically.
+                To become a state-of-the-art infrastructure developer building
+                affordable housing, integrated community townships, commercial
+                buildings, highway infrastructure, and warehousing by finding
+                synergies to execute trendsetting infrastructure projects in
+                these diverse sectors. We shall not be the same as yesterday.
+                Every day we innovate & grow, organically.
               </p>
             </div>
 
             <div className="mb-10">
               <h2 className="text-3xl font-bold mb-2">
-                Our Mission <span className="font-normal text-gray-600">— What we currently do!</span>
+                Our Mission{" "}
+                <span className="font-normal text-gray-600">
+                  — What we currently do!
+                </span>
               </h2>
               <p className="text-gray-700 mt-4">
-                To develop and deliver affordable housing and infrastructure for the future, with best in class quality and safety standards. On time every time.
+                To develop and deliver affordable housing and infrastructure for
+                the future, with best in class quality and safety standards. On
+                time every time.
               </p>
             </div>
 
             <div>
               <h2 className="text-3xl font-bold mb-2">
-                Our Philosophy <span className="font-normal text-gray-600">— What we strive for!</span>
+                Our Philosophy{" "}
+                <span className="font-normal text-gray-600">
+                  — What we strive for!
+                </span>
               </h2>
               <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-                <li>We believe in delivering excellence through innovation, quality, and commitment to our stakeholders.</li>
-                <li>Our success is built on transparency, integrity, and sustainable practices that benefit communities.</li>
-                <li>We foster a culture of continuous learning and growth, empowering our team to achieve extraordinary results.</li>
+                <li>
+                  We believe in delivering excellence through innovation,
+                  quality, and commitment to our stakeholders.
+                </li>
+                <li>
+                  Our success is built on transparency, integrity, and
+                  sustainable practices that benefit communities.
+                </li>
+                <li>
+                  We foster a culture of continuous learning and growth,
+                  empowering our team to achieve extraordinary results.
+                </li>
               </ul>
             </div>
           </div>

@@ -1,11 +1,11 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const SocialMediaLinks = () => {
   return (
     <div className="flex space-x-4">
       <a
-        href="https://www.instagram.com/rubybuilders/"
+        href="https://www.instagram.com/paulbuilders/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-foreground hover:text-primary transition-colors"
@@ -19,7 +19,7 @@ const SocialMediaLinks = () => {
         />
       </a>
       <a
-        href="https://www.facebook.com/RubyBuildersandPromoters"
+        href="https://www.facebook.com/paulBuildersandPromoters"
         target="_blank"
         rel="noopener noreferrer"
         className="text-foreground hover:text-primary transition-colors"
@@ -33,7 +33,7 @@ const SocialMediaLinks = () => {
         />
       </a>
       <a
-        href="https://www.linkedin.com/company/ruby-builders/"
+        href="https://www.linkedin.com/company/paul-builders/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-foreground hover:text-primary transition-colors"
@@ -47,7 +47,7 @@ const SocialMediaLinks = () => {
         />
       </a>
       <a
-        href="https://x.com/Ruby_Builders"
+        href="https://x.com/paul_Builders"
         target="_blank"
         rel="noopener noreferrer"
         className="text-foreground hover:text-primary transition-colors"

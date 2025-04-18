@@ -1,59 +1,63 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const services = [
   {
-    id: 'residential',
-    title: 'Residential Projects',
-    description: 'From premium apartments to luxury villas, we create living spaces that combine comfort, style, and functionality. Our residential projects feature modern designs, quality materials, and sustainable practices to provide an exceptional living experience.',
+    id: "residential",
+    title: "Residential Projects",
+    description:
+      "From premium apartments to luxury villas, we create living spaces that combine comfort, style, and functionality. Our residential projects feature modern designs, quality materials, and sustainable practices to provide an exceptional living experience.",
     features: [
-      'Premium apartments and flats',
-      'Luxury villas and individual homes',
-      'Integrated townships',
-      'Affordable housing projects',
-      'Senior living communities'
+      "Premium apartments and flats",
+      "Luxury villas and individual homes",
+      "Integrated townships",
+      "Affordable housing projects",
+      "Senior living communities",
     ],
-    image: 'https://ext.same-assets.com/165153690/3786047082.webp'
+    image: "https://ext.same-assets.com/165153690/3786047082.webp",
   },
   {
-    id: 'commercial',
-    title: 'Commercial Projects',
-    description: 'Our commercial projects are designed to optimize business operations and create productive environments. We develop state-of-the-art office spaces, retail centers, and industrial facilities that meet the highest standards of quality and efficiency.',
+    id: "commercial",
+    title: "Commercial Projects",
+    description:
+      "Our commercial projects are designed to optimize business operations and create productive environments. We develop state-of-the-art office spaces, retail centers, and industrial facilities that meet the highest standards of quality and efficiency.",
     features: [
-      'Office buildings and corporate parks',
-      'Retail spaces and shopping centers',
-      'Industrial and warehouse facilities',
-      'Hospitality projects',
-      'Mixed-use developments'
+      "Office buildings and corporate parks",
+      "Retail spaces and shopping centers",
+      "Industrial and warehouse facilities",
+      "Hospitality projects",
+      "Mixed-use developments",
     ],
-    image: 'https://ext.same-assets.com/165153690/321382779.webp'
+    image: "https://ext.same-assets.com/165153690/321382779.webp",
   },
   {
-    id: 'plotDevelopment',
-    title: 'Plot Development',
-    description: 'We offer premium plot development services in strategic locations across Chennai, Tirunelveli, and Chengalpattu. Our plots come with clear titles, proper documentation, and necessary approvals, making them ideal for both investment and construction purposes.',
+    id: "plotDevelopment",
+    title: "Plot Development",
+    description:
+      "We offer premium plot development services in strategic locations across Chennai, Tirunelveli, and Chengalpattu. Our plots come with clear titles, proper documentation, and necessary approvals, making them ideal for both investment and construction purposes.",
     features: [
-      'Gated community plots',
-      'CMDA/DTCP approved layouts',
-      'Premium location plots',
-      'Investment-grade land parcels',
-      'Farm plots and agricultural land'
+      "Gated community plots",
+      "CMDA/DTCP approved layouts",
+      "Premium location plots",
+      "Investment-grade land parcels",
+      "Farm plots and agricultural land",
     ],
-    image: 'https://ext.same-assets.com/165153690/844805949.webp'
+    image: "https://ext.same-assets.com/165153690/844805949.webp",
   },
   {
-    id: 'consultancy',
-    title: 'Real Estate Consultancy',
-    description: 'Leverage our expertise in the real estate market with our comprehensive consultancy services. We provide valuable insights, market analysis, and guidance for investments, property management, and regulatory compliance to help you make informed decisions.',
+    id: "consultancy",
+    title: "Real Estate Consultancy",
+    description:
+      "Leverage our expertise in the real estate market with our comprehensive consultancy services. We provide valuable insights, market analysis, and guidance for investments, property management, and regulatory compliance to help you make informed decisions.",
     features: [
-      'Investment advisory services',
-      'Property valuation and assessment',
-      'Legal and documentation assistance',
-      'Property management solutions',
-      'Regulatory compliance guidance'
+      "Investment advisory services",
+      "Property valuation and assessment",
+      "Legal and documentation assistance",
+      "Property management solutions",
+      "Regulatory compliance guidance",
     ],
-    image: 'https://ext.same-assets.com/165153690/3840016385.webp'
-  }
+    image: "https://ext.same-assets.com/165153690/3840016385.webp",
+  },
 ];
 
 const ServicesList = () => {
@@ -65,15 +69,13 @@ const ServicesList = () => {
             <div
               key={service.id}
               id={service.id}
-              className={`grid grid-cols-1 ${index % 2 === 0 ? 'md:grid-cols-[1fr_1.2fr]' : 'md:grid-cols-[1.2fr_1fr] md:[grid-template-areas:_"content_image"]'} gap-8 md:gap-12 items-center`}
+              className={`grid grid-cols-1 ${index % 2 === 0 ? "md:grid-cols-[1fr_1.2fr]" : 'md:grid-cols-[1.2fr_1fr] md:[grid-template-areas:_"content_image"]'} gap-8 md:gap-12 items-center`}
             >
-              <div className={index % 2 !== 0 ? 'md:[grid-area:content]' : ''}>
+              <div className={index % 2 !== 0 ? "md:[grid-area:content]" : ""}>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">
                   {service.title}
                 </h2>
-                <p className="text-gray-700 mb-6">
-                  {service.description}
-                </p>
+                <p className="text-gray-700 mb-6">{service.description}</p>
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold mb-4">What we offer:</h3>
                   <ul className="space-y-2">
@@ -97,7 +99,9 @@ const ServicesList = () => {
                   </ul>
                 </div>
               </div>
-              <div className={`relative ${index % 2 !== 0 ? 'md:[grid-area:image]' : ''}`}>
+              <div
+                className={`relative ${index % 2 !== 0 ? "md:[grid-area:image]" : ""}`}
+              >
                 <div className="relative rounded-lg overflow-hidden shadow-lg">
                   <Image
                     src={service.image}

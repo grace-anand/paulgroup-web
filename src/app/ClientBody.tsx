@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 interface ClientBodyProps {
   children: React.ReactNode;
@@ -13,9 +13,5 @@ export function ClientBody({ children }: ClientBodyProps) {
     document.body.className = "antialiased";
   }, []);
 
-  return (
-    <div className="flex min-h-screen flex-col">
-      {children}
-    </div>
-  );
+  return <div className="flex min-h-screen flex-col">{children}</div>;
 }

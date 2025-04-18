@@ -1,13 +1,14 @@
-import React from 'react';
-import RootLayout from '@/components/layout/RootLayout';
-import ContactHero from '@/components/contact/ContactHero';
-import ContactForm from '@/components/contact/ContactForm';
-import ContactInfo from '@/components/contact/ContactInfo';
-import ContactMap from '@/components/contact/ContactMap';
+import React from "react";
+import RootLayout from "@/components/layout/RootLayout";
+import ContactHero from "@/components/contact/ContactHero";
+import ContactForm from "@/components/contact/ContactForm";
+import ContactInfo from "@/components/contact/ContactInfo";
+import ContactMap from "@/components/contact/ContactMap";
 
 export const metadata = {
-  title: 'Contact Us - Ruby Builders',
-  description: 'Get in touch with Ruby Builders. We are here to assist you with your real estate and construction needs. Contact our team for inquiries and support.',
+  title: "Contact Us - Paul Builders",
+  description:
+    "Get in touch with Paul Builders. We are here to assist you with your real estate and construction needs. Contact our team for inquiries and support.",
 };
 
 export default function ContactUs() {
