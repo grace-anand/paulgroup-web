@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://ext.same-assets.com/165153690/3248512684.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://ext.same-assets.com/165153690/1425427890.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #4d4e4e;
+  --primary: #1877f2; /* Facebook blue */
+  --secondary: #42b72a; /* Facebook green for contrast */
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+  --accent: #f9fafb;
+  --accent-foreground: #111827;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-[1440px] mx-auto px-4 md:px-6 lg:px-8;
+  }
+
+  .heading-primary {
+    @apply text-4xl md:text-5xl font-black leading-tight;
+  }
+
+  .heading-secondary {
+    @apply text-3xl md:text-4xl font-bold leading-tight;
+  }
+
+  .heading-tertiary {
+    @apply text-2xl md:text-3xl font-semibold leading-tight;
+  }
+
+  .text-accent {
+    @apply text-primary italic;
+  }
+}
