@@ -100,7 +100,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden fixed inset-0 z-40 bg-white mt-16 overflow-y-auto">
+        <div className="lg:hidden fixed inset-0 z-40 bg-white mt-20 overflow-y-auto">
           <div className="container-custom py-4">
             <nav className="flex flex-col space-y-4">
               <Link

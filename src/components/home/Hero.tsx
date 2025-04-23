@@ -1,22 +1,25 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import SocialMediaLinks from "../shared/SocialMediaLinks";
 
-const Hero = () => {
-  return (
-    <section className="relative bg-white pb-12 pt-24 md:pt-32 lg:pt-40 overflow-hidden">
-      {/* Background pattern */}
-      <div className="absolute top-0 right-0 z-0 opacity-20">
-        <Image
-          src="https://ext.same-assets.com/165153690/868398034.svg"
-          alt="Background pattern"
-          width={600}
-          height={600}
-        />
-      </div>
+const heroImgs = ["hero-img-1.jpeg", "hero-img-2.jpeg"];
 
-      <div className="container-custom mx-auto relative z-10">
+const Hero = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImgs.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <section className="bg-white py-12 md:pt-32 lg:pt-40 overflow-hidden">
+      <div className="container-custom mx-auto z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="order-2 lg:order-1">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight">
@@ -40,15 +43,20 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="order-1 lg:order-2 relative">
-            <Image
-              src="https://ext.same-assets.com/165153690/3786047082.webp"
-              alt="BuildingImage"
-              width={600}
-              height={500}
-              className="rounded-lg object-cover"
-              priority
-            />
+          <div className="order-1 lg:order-2 relative aspect-video">
+            {heroImgs.map((img, index) => (
+              <Image
+                key={index}
+                src={`/${img}`}
+                alt={`Building Image ${index + 1}`}
+                width={1200}
+                height={800}
+                className={`rounded-lg object-cover absolute top-0 left-0 transition-opacity duration-1000 ${
+                  currentImageIndex === index ? "opacity-100" : "opacity-0"
+                }`}
+                priority={index === 0}
+              />
+            ))}
           </div>
         </div>
       </div>

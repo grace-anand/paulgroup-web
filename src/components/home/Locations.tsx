@@ -18,6 +18,46 @@ const Locations = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+          {/* Trivandrum */}
+          <div className="relative rounded-lg overflow-hidden group">
+            <Image
+              src="https://ext.same-assets.com/165153690/3840016385.webp"
+              alt="Trivandrum"
+              width={400}
+              height={300}
+              className="w-full h-[250px] object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
+              <h3 className="text-white text-2xl font-bold mb-6">Trivandrum</h3>
+              {/* <Link
+                href="/projects?district=Trivandrum"
+                className="bg-white text-foreground px-6 py-2 rounded-full font-medium hover:bg-primary hover:text-white transition-colors"
+              >
+                View Project
+              </Link> */}
+            </div>
+          </div>
+
+          {/* Ernakulam */}
+          <div className="relative rounded-lg overflow-hidden group">
+            <Image
+              src="https://ext.same-assets.com/165153690/844805949.webp"
+              alt="Ernakulam"
+              width={400}
+              height={300}
+              className="w-full h-[250px] object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
+              <h3 className="text-white text-2xl font-bold mb-6">Ernakulam</h3>
+              {/* <Link
+                href="/projects?district=Ernakulam"
+                className="bg-white text-foreground px-6 py-2 rounded-full font-medium hover:bg-primary hover:text-white transition-colors"
+              >
+                View Project
+              </Link> */}
+            </div>
+          </div>
+
           {/* Chennai */}
           <div className="relative rounded-lg overflow-hidden group">
             <Image
@@ -29,56 +69,12 @@ const Locations = () => {
             />
             <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
               <h3 className="text-white text-2xl font-bold mb-6">CHENNAI</h3>
-              <Link
+              {/* <Link
                 href="/projects?district=Chennai"
                 className="bg-white text-foreground px-6 py-2 rounded-full font-medium hover:bg-primary hover:text-white transition-colors"
               >
                 View Project
-              </Link>
-            </div>
-          </div>
-
-          {/* Tirunelveli */}
-          <div className="relative rounded-lg overflow-hidden group">
-            <Image
-              src="https://ext.same-assets.com/165153690/844805949.webp"
-              alt="Tirunelveli"
-              width={400}
-              height={300}
-              className="w-full h-[250px] object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
-              <h3 className="text-white text-2xl font-bold mb-6">
-                TIRUNELVELI
-              </h3>
-              <Link
-                href="/projects?district=Tirunelveli"
-                className="bg-white text-foreground px-6 py-2 rounded-full font-medium hover:bg-primary hover:text-white transition-colors"
-              >
-                View Project
-              </Link>
-            </div>
-          </div>
-
-          {/* Chengalpattu */}
-          <div className="relative rounded-lg overflow-hidden group">
-            <Image
-              src="https://ext.same-assets.com/165153690/3840016385.webp"
-              alt="Chengalpattu"
-              width={400}
-              height={300}
-              className="w-full h-[250px] object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
-              <h3 className="text-white text-2xl font-bold mb-6">
-                CHENGALPATTU
-              </h3>
-              <Link
-                href="/projects?district=Chengalpattu"
-                className="bg-white text-foreground px-6 py-2 rounded-full font-medium hover:bg-primary hover:text-white transition-colors"
-              >
-                View Project
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

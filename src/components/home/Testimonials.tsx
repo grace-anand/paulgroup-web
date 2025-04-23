@@ -3,33 +3,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
-const TESTIMONIALS = [
-  {
-    id: 1,
-    image: "https://ext.same-assets.com/614157772/3870095690.jpeg",
-    alt: "Client testimonial",
-  },
-  {
-    id: 2,
-    image: "https://ext.same-assets.com/614157772/4117882800.jpeg",
-    alt: "Client testimonial",
-  },
-  {
-    id: 33,
-    image: "https://ext.same-assets.com/614157772/373744013.jpeg",
-    alt: "Client testimonial",
-  },
-  {
-    id: 36,
-    image: "https://ext.same-assets.com/614157772/154937503.jpeg",
-    alt: "Client testimonial",
-  },
-  {
-    id: 43,
-    image: "https://ext.same-assets.com/614157772/3067857369.jpeg",
-    alt: "Client testimonial",
-  },
-];
+const TESTIMONIALS = Array.from({ length: 10 }, (_, index) => ({
+  id: index + 1,
+  image: `/renovation-img-${index + 1}.jpeg`,
+  alt: "Client testimonial",
+}));
 
 const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -45,7 +23,7 @@ const Testimonials = () => {
     resetTimeout();
     timeoutRef.current = setTimeout(() => {
       setActiveIndex((prevIndex) =>
-        prevIndex === TESTIMONIALS.length - 1 ? 0 : prevIndex + 1,
+        prevIndex === TESTIMONIALS.length - 1 ? 0 : prevIndex + 1
       );
     }, 5000);
 
@@ -78,13 +56,13 @@ const Testimonials = () => {
                 style={{ transform: `translateX(-${activeIndex * 100}%)` }}
               >
                 {TESTIMONIALS.map((testimonial) => (
-                  <div key={testimonial.id} className="min-w-full">
+                  <div key={testimonial.id} className="min-w-full flex">
                     <Image
                       src={testimonial.image}
                       alt={testimonial.alt}
                       width={500}
                       height={300}
-                      className="w-full h-auto rounded-lg object-cover"
+                      className="w-full h-auto rounded-lg object-cover items-center"
                     />
                   </div>
                 ))}
@@ -110,7 +88,7 @@ const Testimonials = () => {
               className="absolute top-1/2 left-2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow-md"
               onClick={() => {
                 setActiveIndex((prevIndex) =>
-                  prevIndex === 0 ? TESTIMONIALS.length - 1 : prevIndex - 1,
+                  prevIndex === 0 ? TESTIMONIALS.length - 1 : prevIndex - 1
                 );
               }}
               aria-label="Previous slide"
@@ -133,7 +111,7 @@ const Testimonials = () => {
               className="absolute top-1/2 right-2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow-md"
               onClick={() => {
                 setActiveIndex((prevIndex) =>
-                  prevIndex === TESTIMONIALS.length - 1 ? 0 : prevIndex + 1,
+                  prevIndex === TESTIMONIALS.length - 1 ? 0 : prevIndex + 1
                 );
               }}
               aria-label="Next slide"
