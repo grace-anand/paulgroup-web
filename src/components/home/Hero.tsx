@@ -6,10 +6,11 @@ import Image from "next/image";
 import SocialMediaLinks from "../shared/SocialMediaLinks";
 
 const heroImgs = [
+  "hero-img-3.jpg",
+  "hero-img-4.jpg",
+  "hero-img-2.jpg",
   "hero-img-1.jpeg",
-  "natural-house.png",
-  "modern-house.png",
-  "compact-house.png",
+  "hero-img-5.jpg",
 ];
 
 const Hero = () => {
