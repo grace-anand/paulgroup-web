@@ -28,8 +28,8 @@ const Hero = () => {
       className="bg-white flex items-center overflow-hidden relative"
       style={{ minHeight: "calc(100vh - 64px)" }}
     >
-      <div className="container-custom mx-auto z-10 min-h-[calc(100vh-64px)] w-full">
-        <div className="relative min-h-[calc(100vh-64px)] w-full">
+      <div className="container-custom mx-auto z-10 w-full">
+        <div className="relative w-full">
           <div className="absolute inset-0 min-h-[calc(100vh-64px)] w-full overflow-hidden">
             {heroImgs.map((img, index) => (
               <Image
@@ -39,7 +39,7 @@ const Hero = () => {
                 fill
                 className={`object-cover transition-all duration-3000 ${
                   currentImageIndex === index
-                    ? "opacity-30 scale-110"
+                    ? "opacity-1 scale-110"
                     : "opacity-0 scale-100"
                 }`}
                 style={{
@@ -52,21 +52,21 @@ const Hero = () => {
             ))}
           </div>
           <div className="relative z-10 grid  gap-8 items-center justify-center h-full text-center place-items-center min-h-[calc(100vh-64px)]">
-            <div className="order-2 lg:order-1 flex flex-col items-center lg:items-start justify-center w-full">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight text-center ">
+            <div className="order-2 lg:order-1 flex flex-col items-center lg:items-start justify-center w-full mix-blend-difference">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight text-center text-white [text-shadow:_2px_2px_4px_rgb(0_0_0_/_50%)]">
                 Building The Future
                 <br />
                 With <span className="text-primary italic">Paul</span>
               </h1>
-              <p className="text-lg mb-8 text-gray-700 max-w-md text-center ">
+              <p className="text-lg mb-8 text-white max-w-md text-center [text-shadow:_1px_1px_2px_rgb(0_0_0_/_40%)]">
                 Affordable housing, luxury villas, integrated townships, and
                 cutting-edge infrastructure built with quality, safety, and
                 precision to meet your aspirations.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start w-full">
+              <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
                 <Link
                   href="/contactUs"
-                  className="bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-colors inline-flex items-center justify-center"
+                  className="bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-colors inline-flex items-center justify-center [text-shadow:_1px_1px_2px_rgb(0_0_0_/_30%)]"
                 >
                   Contact Us
                 </Link>
