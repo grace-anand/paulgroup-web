@@ -63,7 +63,10 @@ const ContactInfo = () => {
             Phone
           </h3>
           <div className="ml-7">
-            <p className="text-gray-700">+91 73565 69683</p>
+            <p className="text-gray-700 font-semibold">
+              Primary: +91 73565 69683
+            </p>
+            <p className="text-gray-700">Secondary: +91 81294 69683</p>
           </div>
         </div>
 

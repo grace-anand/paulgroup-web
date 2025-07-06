@@ -15,49 +15,32 @@ const Leadership = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
-          {/* Leader 1 */}
-          <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+        <div className="flex justify-center max-w-4xl mx-auto">
+          <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md w-full max-w-md">
             <div className="p-8">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden mb-6">
                 <Image
                   src="https://ext.same-assets.com/165153690/2710587118.webp"
-                  alt="Freddy paul"
+                  alt="Freddy Paul"
                   width={160}
                   height={160}
                   className="object-cover w-full h-full"
                 />
               </div>
-              <h3 className="text-2xl font-bold mb-1">Freddy paul</h3>
-              <p className="text-gray-600 mb-4">Chairman & Managing Director</p>
-              <p className="text-gray-700">
-                With over 25 years of experience in the real estate industry,
-                Dr. Manoharan has led the company to new heights with his
-                visionary leadership and commitment to excellence.
+              <h3 className="text-2xl font-bold mb-1 text-center">
+                Freddy Paul
+              </h3>
+              <p className="text-gray-600 mb-4 text-center">
+                Founder & Director
               </p>
-            </div>
-          </div>
-
-          {/* Leader 2 */}
-          <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
-            <div className="p-8">
-              <div className="w-40 h-40 mx-auto rounded-full overflow-hidden mb-6">
-                <Image
-                  src="https://ext.same-assets.com/165153690/2710587118.webp"
-                  alt="Mr. Ashok Manor"
-                  width={160}
-                  height={160}
-                  className="object-cover w-full h-full"
-                />
-              </div>
-              <h3 className="text-2xl font-bold mb-1">Mr. Ashok Manor</h3>
-              <p className="text-gray-600 mb-4">
-                Vice Chairman & Joint Managing Director
-              </p>
-              <p className="text-gray-700">
-                Mr. Manor brings innovation and strategic thinking to every
-                project, ensuring that Paul Builders remains at the forefront of
-                sustainable development practices.
+              <p className="text-gray-700 text-center">
+                Freddy brings over 10 years of hands-on experience as a site
+                engineer and director in the construction industry. His
+                leadership is rooted in a deep understanding of on-site
+                challenges, quality control, and client needs. Freddy is
+                dedicated to delivering every project with transparency,
+                technical excellence, and a personal touch, ensuring each home
+                is built to the highest standards.
               </p>
             </div>
           </div>

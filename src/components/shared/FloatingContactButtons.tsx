@@ -5,7 +5,7 @@ const FloatingContactButtons = () => {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col space-y-4">
       {/* WhatsApp Button */}
       <a
-        href="https://api.whatsapp.com/send?phone=+918129469683&text=Hi,%20I'm%20interested%20in%Paul%20Builders%20Project.%20Please%20get%20in%20touch%20with%20me."
+        href="https://api.whatsapp.com/send?phone=+917356569683&text=Hi,%20I'm%20interested%20in%Paul%20Builders%20Project.%20Please%20get%20in%20touch%20with%20me."
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors"
@@ -22,11 +22,11 @@ const FloatingContactButtons = () => {
         </svg>
       </a>
 
-      {/* Call Button */}
+      {/* Primary Call Button */}
       <a
-        href="tel:+918129469683"
+        href="tel:+917356569683"
         className="bg-primary text-white p-3 rounded-full shadow-lg hover:bg-opacity-90 transition-colors"
-        aria-label="Call us"
+        aria-label="Call us (Primary)"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

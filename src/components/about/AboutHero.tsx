@@ -28,19 +28,16 @@ const AboutHero = () => {
           <div className="bg-gray-100 p-6 rounded-lg">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Who we are</h2>
             <p className="text-lg text-gray-700 mb-6">
-              We are a premier infrastructure development company dedicated to
-              creating exceptional spaces that enhance lives and communities.
-              From affordable housing to cutting-edge commercial projects, we
-              pride ourselves on delivering quality, innovation, and trust in
-              every endeavor. Our journey is built on the foundation of
-              commitment, excellence, and the vision to redefine modern living.
+              Founded in 2019, we are a modern construction company dedicated to
+              delivering quality homes and renovations for families and
+              individuals across Kerala. Our journey is defined by agility,
+              innovation, and a strong commitment to customer satisfaction.
             </p>
             <p className="text-lg text-gray-700">
-              With a customer-first approach, we strive to go beyond building
-              structures—we craft lifestyles and experiences that resonate with
-              comfort, convenience, and modernity. Our unwavering focus on
-              sustainability and community development ensures that every
-              project stands as a testament to our values and long-term vision.
+              In just five years, we've helped dozens of clients realize their
+              dream homes, focusing on transparency, personalized service, and
+              sustainable building practices. We believe in building lasting
+              relationships as much as we build lasting homes.
             </p>
           </div>
         </div>
