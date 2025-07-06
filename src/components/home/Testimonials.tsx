@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
-const TESTIMONIALS = Array.from({ length: 10 }, (_, index) => ({
+const TESTIMONIALS = Array.from({ length: 9 }, (_, index) => ({
   id: index + 1,
   image: `/renovation-img-${index + 1}.jpeg`,
   alt: "Client testimonial",
