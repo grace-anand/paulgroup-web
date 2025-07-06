@@ -3,60 +3,46 @@ import Image from "next/image";
 
 const services = [
   {
-    id: "residential",
-    title: "Residential Projects",
+    id: "home-construction",
+    title: "Home Construction",
     description:
-      "From premium apartments to luxury villas, we create living spaces that combine comfort, style, and functionality. Our residential projects feature modern designs, quality materials, and sustainable practices to provide an exceptional living experience.",
+      "We build individual homes tailored to your needs, whether it's a new house on your own land or a small extension. Our team ensures quality and transparency at every step.",
     features: [
-      "Premium apartments and flats",
-      "Luxury villas and individual homes",
-      "Integrated townships",
-      "Affordable housing projects",
-      "Senior living communities",
+      "Custom home construction at your address",
+      "Small-scale renovations and extensions",
+      "Assistance with local approvals",
+      "Transparent pricing and timelines",
+      "Personalized service from start to finish",
     ],
-    image: "https://ext.same-assets.com/165153690/3786047082.webp",
+    image: "/natural-house.png",
   },
   {
-    id: "commercial",
-    title: "Commercial Projects",
+    id: "renovation",
+    title: "Renovation & Repairs",
     description:
-      "Our commercial projects are designed to optimize business operations and create productive environments. We develop state-of-the-art office spaces, retail centers, and industrial facilities that meet the highest standards of quality and efficiency.",
+      "Upgrade, repair, or modernize your existing home. We handle everything from minor repairs to full renovations, always with a focus on your comfort and budget.",
     features: [
-      "Office buildings and corporate parks",
-      "Retail spaces and shopping centers",
-      "Industrial and warehouse facilities",
-      "Hospitality projects",
-      "Mixed-use developments",
+      "Kitchen and bathroom remodeling",
+      "Structural repairs",
+      "Painting and finishing",
+      "Waterproofing and maintenance",
+      "Energy efficiency upgrades",
     ],
-    image: "https://ext.same-assets.com/165153690/321382779.webp",
+    image: "/modern-house.png",
   },
   {
-    id: "plotDevelopment",
-    title: "Plot Development",
+    id: "address-consultancy",
+    title: "Address-Based Consultancy",
     description:
-      "We offer premium plot development services in strategic locations across Trivandrum, Ernakulam, and Kozhikode. Our plots come with clear titles, proper documentation, and necessary approvals, making them ideal for both investment and construction purposes.",
+      "Get expert advice for your specific property or address. We help you plan, budget, and navigate local regulations for your construction or renovation project.",
     features: [
-      "Gated community plots",
-      "K-RERA approved layouts",
-      "Premium location plots",
-      "Investment-grade land parcels",
-      "Farm plots and agricultural land",
+      "Site visits and feasibility checks",
+      "Budget planning",
+      "Local regulation guidance",
+      "Material and design suggestions",
+      "Step-by-step project planning",
     ],
-    image: "https://ext.same-assets.com/165153690/844805949.webp",
-  },
-  {
-    id: "consultancy",
-    title: "Real Estate Consultancy",
-    description:
-      "Leverage our expertise in the real estate market with our comprehensive consultancy services. We provide valuable insights, market analysis, and guidance for investments, property management, and regulatory compliance to help you make informed decisions.",
-    features: [
-      "Investment advisory services",
-      "Property valuation and assessment",
-      "Legal and documentation assistance",
-      "Property management solutions",
-      "Regulatory compliance guidance",
-    ],
-    image: "https://ext.same-assets.com/165153690/3840016385.webp",
+    image: "/compact-house.png",
   },
 ];
 

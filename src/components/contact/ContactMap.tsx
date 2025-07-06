@@ -17,7 +17,7 @@ const ContactMap = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="Paul Builders Kerala Location Map"
-          ></iframe>
+          />
         </div>
       </div>
     </section>

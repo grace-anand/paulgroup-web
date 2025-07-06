@@ -5,37 +5,25 @@ const processes = [
     number: "01",
     title: "Consultation",
     description:
-      "We begin with a detailed consultation to understand your needs, preferences, and vision. Our experts work closely with you to align our services with your specific requirements.",
+      "We discuss your needs, visit your site or address, and understand your goals for the project.",
   },
   {
     number: "02",
-    title: "Planning & Design",
+    title: "Planning & Estimate",
     description:
-      "Our team develops comprehensive plans and designs that reflect your vision while ensuring functionality, aesthetics, and compliance with regulations. We incorporate sustainable features and innovative solutions.",
+      "We help you plan the project, select materials, and provide a clear estimate and timeline.",
   },
   {
     number: "03",
-    title: "Approvals & Documentation",
+    title: "Construction or Renovation",
     description:
-      "We handle all necessary approvals, permits, and documentation required for your project, ensuring full compliance with local regulations and seamless execution of the project.",
+      "Our team carries out the construction, renovation, or repairs with quality and transparency.",
   },
   {
     number: "04",
-    title: "Construction & Development",
-    description:
-      "Our skilled professionals execute the project with precision, using high-quality materials and adhering to strict quality control measures. We maintain transparency and regular communication throughout.",
-  },
-  {
-    number: "05",
-    title: "Quality Assurance",
-    description:
-      "We conduct rigorous quality checks at every stage to ensure that all aspects of the project meet our high standards and your expectations. We prioritize durability, safety, and aesthetic appeal.",
-  },
-  {
-    number: "06",
     title: "Handover & Support",
     description:
-      "Upon completion, we provide a smooth handover process along with comprehensive documentation. Our relationship continues with after-sales support and guidance for maintenance and any future needs.",
+      "We complete the project, hand over your improved home, and remain available for any follow-up support.",
   },
 ];
 
