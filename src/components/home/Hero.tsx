@@ -49,7 +49,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="order-1 lg:order-2 relative size-full">
+          <div className="order-1 lg:order-2 relative aspect-video">
             {heroImgs.map((img, index) => (
               <Image
                 key={index}
