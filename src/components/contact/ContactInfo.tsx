@@ -38,7 +38,7 @@ const ContactInfo = () => {
             <br />
             Appattuvila, Venkulam,
             <br />
-            Trivandrum, India,
+            Trivandrum, Kerala,
             <br />
             695506
           </p>

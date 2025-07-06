@@ -3,8 +3,7 @@ import { ClientBody } from "./ClientBody";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title:
-    "Paul Builders - Leading Real Estate Developer in Chennai | Since 1995",
+  title: "Paul Builders - Leading Real Estate Developer in Kerala | Since 1995",
   description:
     "Discover premium residential projects, plots & commercial properties by Paul Builders",
   icons: {

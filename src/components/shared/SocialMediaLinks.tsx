@@ -46,34 +46,6 @@ const SocialMediaLinks = () => {
           height={24}
         />
       </a>
-      <a
-        href="https://x.com/paul_Builders"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-foreground hover:text-primary transition-colors"
-        aria-label="Twitter"
-      >
-        <Image
-          src="https://ext.same-assets.com/165153690/4281502204.svg"
-          alt="Twitter"
-          width={24}
-          height={24}
-        />
-      </a>
-      <a
-        href="https://www.youtube.com/channel/UC8qn-Ty1c16TNxqSnUo0nUA"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-foreground hover:text-primary transition-colors"
-        aria-label="YouTube"
-      >
-        <Image
-          src="https://ext.same-assets.com/165153690/2821538621.svg"
-          alt="YouTube"
-          width={24}
-          height={24}
-        />
-      </a>
     </div>
   );
 };

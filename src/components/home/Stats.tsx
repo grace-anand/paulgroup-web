@@ -26,43 +26,42 @@ const Stats = () => {
             </h2>
             <div className="mt-6">
               <h3 className="text-2xl md:text-3xl font-bold mb-1">
-                The Responsible
+                The Creative
               </h3>
               <h3 className="text-2xl md:text-3xl font-bold">
-                Builder of <span className="italic text-secondary">India</span>
+                Builder of <span className="italic text-secondary">Kerala</span>
               </h3>
             </div>
             <p className="max-w-md my-6 text-gray-700">
-              Being one of the top real estate home builders in Tamilnadu, we
-              bring you a new array of apartments, flats, and villas that match
-              your requirements and complement your lifestyle. We differ from
-              other home builders in Tamilnadu with our unique styles and
-              perceptions.
+              Being one of the top home builders in Kerala, we bring you a new
+              array of apartments, flats, and villas that match your
+              requirements and complement your lifestyle. We differ from other
+              home builders in Kerala with our unique styles and perceptions.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-8">
             <div className="text-center">
               <p className="text-3xl md:text-4xl font-black text-primary italic mb-2">
-                4.1 Million sq.ft
+                1300+ Thousand+ sq.ft
               </p>
               <p className="text-gray-700">Saleable Area</p>
             </div>
             <div className="text-center">
               <p className="text-3xl md:text-4xl font-black text-primary italic mb-2">
-                5800+
+                7+
               </p>
               <p className="text-gray-700">Happy Homes</p>
             </div>
             <div className="text-center">
               <p className="text-3xl md:text-4xl font-black text-primary italic mb-2">
-                190+
+                7+
               </p>
               <p className="text-gray-700">Project Completed</p>
             </div>
             <div className="text-center">
               <p className="text-3xl md:text-4xl font-black text-primary italic mb-2">
-                25+
+                3+
               </p>
               <p className="text-gray-700">Awards</p>
             </div>

@@ -25,7 +25,7 @@ const Footer = () => {
               <br />
               Venkulam,
               <br />
-              Trivandrum, India, 695506
+              Trivandrum, Kerala, 695506
             </p>
           </div>
 

@@ -34,10 +34,10 @@ const services = [
     id: "plotDevelopment",
     title: "Plot Development",
     description:
-      "We offer premium plot development services in strategic locations across Chennai, Tirunelveli, and Chengalpattu. Our plots come with clear titles, proper documentation, and necessary approvals, making them ideal for both investment and construction purposes.",
+      "We offer premium plot development services in strategic locations across Trivandrum, Ernakulam, and Kozhikode. Our plots come with clear titles, proper documentation, and necessary approvals, making them ideal for both investment and construction purposes.",
     features: [
       "Gated community plots",
-      "CMDA/DTCP approved layouts",
+      "K-RERA approved layouts",
       "Premium location plots",
       "Investment-grade land parcels",
       "Farm plots and agricultural land",
@@ -69,7 +69,11 @@ const ServicesList = () => {
             <div
               key={service.id}
               id={service.id}
-              className={`grid grid-cols-1 ${index % 2 === 0 ? "md:grid-cols-[1fr_1.2fr]" : 'md:grid-cols-[1.2fr_1fr] md:[grid-template-areas:_"content_image"]'} gap-8 md:gap-12 items-center`}
+              className={`grid grid-cols-1 ${
+                index % 2 === 0
+                  ? "md:grid-cols-[1fr_1.2fr]"
+                  : 'md:grid-cols-[1.2fr_1fr] md:[grid-template-areas:_"content_image"]'
+              } gap-8 md:gap-12 items-center`}
             >
               <div className={index % 2 !== 0 ? "md:[grid-area:content]" : ""}>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -100,7 +104,9 @@ const ServicesList = () => {
                 </div>
               </div>
               <div
-                className={`relative ${index % 2 !== 0 ? "md:[grid-area:image]" : ""}`}
+                className={`relative ${
+                  index % 2 !== 0 ? "md:[grid-area:image]" : ""
+                }`}
               >
                 <div className="relative rounded-lg overflow-hidden shadow-lg">
                   <Image
