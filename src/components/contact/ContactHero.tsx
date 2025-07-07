@@ -76,7 +76,7 @@ const ContactHero = () => {
               +91 81294 69683
             </a>
             <a
-              href="mailto:freddypaulvkp@gmail.com"
+              href="mailto:paulgroup007@gmail.com"
               className="px-6 py-2 bg-gray-100 text-gray-700 rounded-full transition hover:bg-gray-200 flex items-center"
             >
               <svg

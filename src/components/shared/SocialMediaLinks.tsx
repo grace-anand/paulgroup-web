@@ -5,46 +5,31 @@ const SocialMediaLinks = () => {
   return (
     <div className="flex space-x-4">
       <a
-        href="https://www.instagram.com/paulbuilders/"
+        href="https://www.instagram.com/paul__group"
         target="_blank"
         rel="noopener noreferrer"
         className="text-foreground hover:text-primary transition-colors"
         aria-label="Instagram"
       >
-        <Image
-          src="https://ext.same-assets.com/165153690/1190302716.svg"
-          alt="Instagram"
-          width={24}
-          height={24}
-        />
+        <Image src="/instagram.png" alt="Instagram" width={24} height={24} />
       </a>
       <a
-        href="https://www.facebook.com/paulBuildersandPromoters"
+        href="https://www.facebook.com/share/15SEUtH1Y7/?mibextid=wwXIfr"
         target="_blank"
         rel="noopener noreferrer"
         className="text-foreground hover:text-primary transition-colors"
         aria-label="Facebook"
       >
-        <Image
-          src="https://ext.same-assets.com/165153690/1864465667.svg"
-          alt="Facebook"
-          width={24}
-          height={24}
-        />
+        <Image src="/facebook.png" alt="Facebook" width={24} height={24} />
       </a>
       <a
-        href="https://www.linkedin.com/company/paul-builders/"
+        href="https://x.com/paulgroup007?s=21"
         target="_blank"
         rel="noopener noreferrer"
         className="text-foreground hover:text-primary transition-colors"
-        aria-label="LinkedIn"
+        aria-label="X"
       >
-        <Image
-          src="https://ext.same-assets.com/165153690/2956798927.svg"
-          alt="LinkedIn"
-          width={24}
-          height={24}
-        />
+        <Image src="/x.png" alt="LinkedIn" width={24} height={24} />
       </a>
     </div>
   );

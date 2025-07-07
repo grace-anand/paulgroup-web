@@ -90,10 +90,10 @@ const ContactInfo = () => {
           </h3>
           <p className="text-gray-700 ml-7">
             <a
-              href="mailto:freddypaulvkp@gmail.com"
+              href="mailto:paulgroup007@gmail.com"
               className="hover:text-primary"
             >
-              freddypaulvkp@gmail.com
+              paulgroup007@gmail.com
             </a>
           </p>
         </div>

@@ -107,50 +107,37 @@ const Footer = () => {
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                 <polyline points="22,6 12,13 2,6" />
               </svg>
-              <span className="text-sm">freddypaulvkp@gmail.com</span>
+              <span className="text-sm">paulgroup007@gmail.com</span>
             </div>
             <div className="flex space-x-3 mt-2">
               <a
-                href="https://www.instagram.com/paulbuilders/"
+                href="https://www.instagram.com/paul__group"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
               >
                 <Image
-                  src="https://ext.same-assets.com/165153690/1190302716.svg"
+                  src="/instagram.png"
                   alt="Instagram"
                   width={24}
                   height={24}
                 />
               </a>
               <a
-                href="https://www.facebook.com/paulBuildersandPromoters"
+                href="https://www.facebook.com/share/15SEUtH1Y7/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
               >
                 <Image
-                  src="https://ext.same-assets.com/165153690/1864465667.svg"
+                  src="/facebook.png"
                   alt="Facebook"
                   width={24}
                   height={24}
                 />
               </a>
               <a
-                href="https://www.linkedin.com/company/paul-builders/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground hover:text-primary transition-colors"
-              >
-                <Image
-                  src="https://ext.same-assets.com/165153690/2956798927.svg"
-                  alt="LinkedIn"
-                  width={24}
-                  height={24}
-                />
-              </a>
-              <a
-                href="https://x.com/paul_Builders"
+                href="https://x.com/paulgroup007?s=21"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
@@ -158,19 +145,6 @@ const Footer = () => {
                 <Image
                   src="https://ext.same-assets.com/165153690/4281502204.svg"
                   alt="Twitter"
-                  width={24}
-                  height={24}
-                />
-              </a>
-              <a
-                href="https://www.youtube.com/channel/UC8qn-Ty1c16TNxqSnUo0nUA"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground hover:text-primary transition-colors"
-              >
-                <Image
-                  src="https://ext.same-assets.com/165153690/2821538621.svg"
-                  alt="YouTube"
                   width={24}
                   height={24}
                 />
